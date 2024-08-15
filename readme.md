@@ -11,12 +11,10 @@ This repository contains a backend study case, implemented as part of my learnin
 - [API Endpoints](#api-endpoints)
 - [Schema Validation](#schema-validation)
 - [Error Handling](#error-handling)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-This project serves as a simple backend service that manages user data, including their ID, name, email, and date of birth. The goal is to create a RESTful API that allows clients to create, read, update, and delete user records. The application uses Node.js and JSON schema validation with [AJV](https://ajv.js.org/) to ensure data integrity.
+This project serves as a simple backend service that manages user data, including their  name, email, and date of birth. The goal is to create a RESTful API that allows clients to create, read, update, and delete user records. The application uses Node.js and JSON schema validation with [AJV](https://ajv.js.org/) to ensure data integrity.
 
 ## Technologies Used
 
@@ -45,7 +43,7 @@ To get started with this project, follow the steps below:
 
 4. **Run the server:**
    ```bash
-   node index.js
+   npm run start
    ```
 
    The server will start running on `http://localhost:8000`.
