@@ -17,6 +17,7 @@ const userSchema = {
 }
 
 const validate = ajv.compile(userSchema)
+
 module.exports = {
     userSchema,
     validate
